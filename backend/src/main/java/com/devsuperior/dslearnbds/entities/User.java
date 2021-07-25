@@ -84,6 +84,10 @@ public class User implements Serializable {
 		return roles;
 	}
 
+	public List<Notification> getNotifications() {
+		return notifications;
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
